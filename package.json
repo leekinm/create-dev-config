@@ -1,0 +1,35 @@
+{
+	"name": "create-dev-config",
+	"version": "1.0.0",
+	"type": "commonjs",
+	"description": "Utility to setup development config for project",
+	"main": "index.js",
+	"bin": {
+		"create-dev-config": "./bin/create-dev-config.cjs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://leekinm.github.com/create-dev-config.git"
+	},
+	"keywords": [
+		"cli",
+		"npm",
+		"node"
+	],
+	"author": "leekinm.github.com",
+	"license": "ISC",
+	"devDependencies": {
+		"@eslint/js": "^9.5.0",
+		"@vue/create-eslint-config": "^0.3.3",
+		"chalk": "^4.0.0",
+		"eslint": "^9.5.0",
+		"globals": "^15.6.0",
+		"prettier": "3.3.2"
+	},
+	"dependencies": {
+		"inquirer": "^8.2.6"
+	}
+}
